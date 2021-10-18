@@ -13,6 +13,6 @@ CAS認証のログインを自動化するChrome拡張。名古屋大学が提�
 1. リポジトリをクローン  
 `git clone https://github.com/obashun22/auto-cas-login.git`
 
-1. Chromeの[拡張機能](chrome://extensions/)を開く
+1. Chromeの拡張機能(`chrome://extensions/`)を開く
 1. デベロッパーモードに切り替える
 1. `パッケージ化されていない拡張機能を読み込む`から先にクローンしたリポジトリを選択する
