@@ -1,7 +1,7 @@
 $(() => {
   // 未ログインのNUCTにログインした場合の処理
   if (location.href.match(/https:\/\/ct.nagoya-u.ac.jp\/portal/)) {
-    if ($('#loginLink1').length != 0) {
+    if ($('#loginLinks').find('img').length) {
       // CASにリダイレクト
       location.href = "https://auth.nagoya-u.ac.jp/cas/login?service=https%3A%2F%2Fct.nagoya-u.ac.jp%2Fsakai-login-tool%2Fcontainer";
     }

@@ -13,7 +13,7 @@
     {
         "matches": [
           "https://auth.nagoya-u.ac.jp/cas/login*",
-          "https://ct.nagoya-u.ac.jp/portal/"
+          "https://ct.nagoya-u.ac.jp/portal*"
         ],
         "js": ["jquery-3.6.0.min.js", "autoLogin.js"]
     }
