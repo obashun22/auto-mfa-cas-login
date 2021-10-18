@@ -1,0 +1,24 @@
+{
+	"name": "Auto CAS Login",
+	"manifest_version": 3,
+	"version": "1.0",
+  "description": "Auto login extention for CAS of nagoya university.",
+  "icons": {
+    "48": "icon64.png"
+  },
+	"permissions": [
+    "tabs", "storage"
+  ],
+	"content_scripts": [
+    {
+        "matches": [
+          "https://auth.nagoya-u.ac.jp/cas/login*"
+        ],
+        "js": ["jquery-3.6.0.min.js", "autoLogin.js"]
+    }
+  ],
+  "action":{
+    "default_title":"Auto CAS Login",
+    "default_popup":"popup.html"
+  }
+}

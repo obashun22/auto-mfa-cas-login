@@ -1,0 +1,41 @@
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <link href="css/bulma.min.css" rel="stylesheet">
+  <title>Auto CAS Login</title>
+</head>
+<body>
+  <div style="width: 300px">
+    <header class="hero is-small is-success">
+      <div class="hero-body">
+        <p class="title">
+          Auto CAS Login
+        </p>
+      </div>
+    </header>
+    <div class="section">
+      <div class="field">
+        <label class="label">Meidai ID</label>
+        <div class="control">
+          <input id="username" class="input is-success" type="text" placeholder="Meidai ID" value="">
+        </div>
+      </div>
+      <div class="field">
+        <label class="label">Password</label>
+        <div class="control">
+          <input id="password" class="input is-success" type="password" placeholder="Password" value="">
+        </div>
+      </div>
+      <div class="field is-grouped">
+        <div class="control">
+          <button id="submit" class="button is-success">Save</button>
+        </div>
+      </div>
+      <p id="message"></p>
+    </div>
+  </div>
+
+  <script src="jquery-3.6.0.min.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
