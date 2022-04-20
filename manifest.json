@@ -12,10 +12,10 @@
 	"content_scripts": [
     {
         "matches": [
-          "https://auth.nagoya-u.ac.jp/cas/login*",
+          "https://auth-mfa.nagoya-u.ac.jp/cas/login*",
           "https://ct.nagoya-u.ac.jp/portal*"
         ],
-        "js": ["jquery-3.6.0.min.js", "autoLogin.js"]
+        "js": ["jquery-3.6.0.min.js", "totp.min.js", "autoLogin.js"]
     }
   ],
   "action":{
