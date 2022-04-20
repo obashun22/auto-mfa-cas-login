@@ -12,7 +12,7 @@ CAS認証と多要素認証のログインを自動化するChrome拡張。名�
 
 ## 導入
 1. リポジトリをクローン  
-`git clone https://github.com/obashun22/auto-cas-login.git`
+`git clone https://github.com/obashun22/auto-mfa-cas-login.git`
 
 1. Chromeの拡張機能(`chrome://extensions/`)を開く
 1. デベロッパーモードに切り替える
